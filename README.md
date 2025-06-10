@@ -16,7 +16,7 @@ Click to view details for each project:
 - [Appreciation Message Page](https://jerriward007.github.io/appreciation-message/)
 - [Estatiq Wears Survey Form](https://jerriward007.github.io/estatiq-wears-survey-form/)
 - [Estatiq Wears Homepage](https://jerriward007.github.io/estatiq-wears/)
--  [Time Series Visualizer]
+-  [Time Series Visualizer](https://jerriward007.github.io/page-view-time-series-visualizer/)
 - [Technical Documentation Site](https://jerriward007.github.io/technical-documentation/)
 
 ## 🧠 Skills
