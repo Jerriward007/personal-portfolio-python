@@ -15,7 +15,7 @@ Click to view details for each project:
 - [Mean Variance Standard Deviation Calculator](https://jerriward007.github.io/mean-variance-standard-deviation-calculator/)
 - [Appreciation Message Page](https://jerriward007.github.io/appreciation-message/)
 - [Estatiq Wears Survey Form](projects/estatiq-wears-survey/)
-- [Estatiq Wears Homepage](projects/estatiq-wears-homepage/)
+- [Estatiq Wears Homepage](https://jerriward007.github.io/estatiq-wears/)
 - [Technical Documentation Site](projects/technical-documentation/)
 
 ## 🧠 Skills
