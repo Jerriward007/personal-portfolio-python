@@ -9,8 +9,8 @@ Hi there! I'm **Ogungbemi Jeremiah Kola**, a Plant Biologist and aspiring Bioinf
 
 Click to view details for each project:
 
-- [Medical Data Visualizer](https://jerriward007.github.io/medical-data-visualizer/))
-- [Sea Level Predictor](projects/sea-level-predictor/)
+- [Medical Data Visualizer](https://jerriward007.github.io/medical-data-visualizer/)
+- [Sea Level Predictor](https://jerriward007.github.io/sea-level-predictor/)
 - [Demographic Data Analyzer](projects/demographic-data-analyzer/)
 - [Mean Variance Standard Deviation Calculator](projects/mean-variance-calculator/)
 - [Appreciation Message Page](projects/appreciation-message-page/)
