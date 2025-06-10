@@ -13,7 +13,7 @@ Click to view details for each project:
 - [Sea Level Predictor](https://jerriward007.github.io/sea-level-predictor/)
 - [Demographic Data Analyzer](https://jerriward007.github.io/demographic-data-analyzer-/)
 - [Mean Variance Standard Deviation Calculator](https://jerriward007.github.io/mean-variance-standard-deviation-calculator/)
-- [Appreciation Message Page](projects/appreciation-message-page/)
+- [Appreciation Message Page](https://jerriward007.github.io/appreciation-message/)
 - [Estatiq Wears Survey Form](projects/estatiq-wears-survey/)
 - [Estatiq Wears Homepage](projects/estatiq-wears-homepage/)
 - [Technical Documentation Site](projects/technical-documentation/)
