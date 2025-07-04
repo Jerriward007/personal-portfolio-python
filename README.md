@@ -2,6 +2,11 @@
 
 Hi there! I'm **Ogungbemi Jeremiah Kola**, a Plant Biologist and aspiring Bioinformatician with a strong passion for data science, programming, and applied computational biology.
 
+## 🌐 Live Portfolio
+
+View the deployed Flask portfolio live here:  
+🔗 [https://personal-portfolio-python.onrender.com/](https://personal-portfolio-python.onrender.com/)
+
 ## 🎓 Education
 - **B.Sc. in Botany** – Federal University of Agriculture, Abeokuta
 
