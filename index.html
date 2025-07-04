@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ogungbemi Jeremiah Kola | Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+  <header style="background-color: #680f0c; color: white; padding: 2rem 1rem;">
+    <h1 style="margin: 0; font-size: 2.5rem;">🧬</h1>
+    <h1 style="margin: 0;">OGUNGBEMI</h1>
+    <h1 style="margin: 0;">JEREMIAH</h1>
+    <h1 style="margin: 0;">KOLA</h1>
+    <p style="font-size: 1.2rem; font-style: italic;">Personal Portfolio</p>
+  </header>
+
+  <section id="intro" style="padding: 2rem; background: white;">
+    <img src="https://i.imgur.com/E0xLcdB.jpeg" alt="Ogungbemi Jeremiah Kola" />
+
+    <br><br>
+    
+    <h1 style="color: #680f0c;">
+      ABOUT ME<br>
+      Aspiring Bioinformatician • Web Developer • Data Analyst • Molecular Biologist • Pathologist
+    </h1>
+
+    <div style="text-align: left; max-width: 800px; margin: 2rem auto; font-size: 1.1rem; line-height: 1.6; color: #333;">
+  <p>
+    Hi there! I'm Ogungbemi Jeremiah Kola, a Plant Biologist and aspiring Bioinformatician with a strong passion for data science, programming, and applied genomics. I hold a B.Sc. in Botany from the Federal University of Agriculture, Abeokuta. I am deeply passionate and dedicated to my profession. My journey in Botany has equipped me with a robust understanding of plant sciences, emphasizing the importance of sustainable practices.
+  </p>
+  <p>
+    Throughout my academic pursuits, I have honed skills in Plant Physiology, Genetics, Virology, Molecular Biology, Bioinformatics, Plant Pathology, and research methodologies, cultivating a keen interest in further developing myself in bioinformatics and biotechnology. I approach challenges with a proactive mindset, seeking innovative solutions to contribute meaningfully to the field. My commitment to continuous learning drives me to stay abreast of the latest developments in botanical sciences.
+  </p>
+  <p>
+    Beyond academics, I possess strong interpersonal and communication skills, fostering effective collaboration within diverse teams. I am adept at translating complex biological concepts into accessible knowledge for various audiences.
+  </p>
+  <p>
+    Outside of my academic and professional interests, I enjoy experimenting with code during my leisure time. I’m also a lover of good food — nothing beats a well-prepared plate of jollof rice and chicken, especially when accompanied by a chilled bottle of Fruita juice!
+  </p>
+  <p>
+    In addition to my scientific pursuits, I am a creative at heart. I'm a fashion designer and the founder of a growing brand called <strong>Estatiq Wears</strong>, which will be launching soon. I specialize in designing and sewing both traditional and international styles, with a strong attention to detail and originality. Whether you're looking for professional wear or cultural elegance, I'm available at your service.
+  </p>
+  <p>
+    I am now actively seeking opportunities to apply my skills and knowledge in a professional setting — particularly in the fields of bioinformatics, biotechnology, or genomics — where I can contribute meaningfully, grow continuously, and make a lasting impact. Let's connect and explore how we can collaborate!
+  </p>
+</div>
+
+  </section>
+
+  <section id="portfolio">
+    <h2>My Projects</h2>
+    <ul>
+      {% for project in projects %}
+        <li><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  
+<hr>
+<table style="margin: 2rem auto; border-collapse: collapse; width: 90%; max-width: 800px;">
+  <caption style="font-size: 1.5rem; margin-bottom: 1rem; color: #680f0c;">My Daily Schedule</caption>
+  <thead>
+    <tr style="background-color: #680f0c; color: white;">
+      <th>&nbsp;</th>
+      <th scope="col">Time</th>
+      <th scope="col">Activity</th>
+    </tr>
+  </thead>
+  <tbody style="text-align: center;">
+    <tr>
+      <th scope="row">Morning</th>
+      <td><time datetime="08:00">8am</time> - <time datetime="11:00">11am</time></td>
+      <td>Write Code</td>
+    </tr>
+    <tr>
+      <th scope="row">Break</th>
+      <td><time datetime="11:00">11am</time> - <time datetime="12:00">12pm</time></td>
+      <td>Eat Lunch</td>
+    </tr>
+    <tr>
+      <th scope="row">Afternoon</th>
+      <td><time datetime="12:00">12pm</time> - <time datetime="17:00">5pm</time></td>
+      <td>Study for Other Courses</td>
+    </tr>
+    <tr>
+      <th scope="row">Evening</th>
+      <td rowspan="2">All Other Times</td>
+      <td>Free Time</td>
+    </tr>
+    <tr>
+      <th scope="row">Night</th>
+      <td>Sleep</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3" style="padding-top: 1rem; font-style: italic;">
+        And that's what I do every day, 5 days a week. Just eat, sleep, code… and recharge!
+      </td>
+    </tr>
+  </tfoot>
+</table>
+  
+  <footer>
+    <p>&copy; 2025 Ogungbemi Jeremiah Kola. All rights reserved.</p>
+  </footer>
+</body>
+</html>
